@@ -9,4 +9,5 @@ El mismo contiene las dependencias:
 - spring-security-test Y spring-boot-starter-test: para realizar los Test.
 - springdoc-openapi-starter-webmvc-ui: dependencia para utilizar Sagger UI para documentar de forma sencilla y rapida la API.
 - spring-boot-starter-thymeleaf: esta dependencia sirve para crear las vistas de un proyecto, para este caso solo utilizaremos las que trae por defecto el proyecto base para probar los permisos de los roles. Se puede quitar al finalizar el proyecto, ya que me centrare en la construccion de los servicios back-end, para la API solicitada.
-- 
+
+Luego al comenzar a trabajar con las entity agregue las dependencias de Lombok, que ayuda a escribir metodos automaticamente, Jpa que reduce la cantidad de codigo para hacer consultas a la base de datos y agrego la base de datos h2, para mantener la base de datos en memoria. Pienso que al no tener que configurar nada de esto tendre mas tiempo para concentrarme en otras actividades.
